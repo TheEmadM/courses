@@ -1,3 +1,6 @@
+In this website we provide a simple platform for people to have their services and talk about them and show which services are available for other.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
