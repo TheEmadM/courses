@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
-import logo from "./logo.svg";
 import "./App.css";
 
 const App = () => {
@@ -21,7 +20,7 @@ const App = () => {
             </li>
           </ul>
         </nav>
-
+        <div className="underNav"></div>
         <hr />
 
         {/* Use Routes instead of Route */}
