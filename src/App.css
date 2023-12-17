@@ -187,10 +187,25 @@ hr {
   color: #555;
   font-size: 14px;
   font-family: 'Arial', sans-serif; /* Use a sans-serif font for consistency */
+  margin-top: 250px;
 }
 
-.animated-description{
+.animated-description {
+  position: absolute;
+  width: 30%;
+  height: 200px;
+  transform: translate(0, -50%);
   background-color: white;
   border: #333;
   border-width: 4px;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.holder {
+  margin-top: 100px;
+  margin-top: 100px;
 }

@@ -17,7 +17,7 @@ const Card = (props) => {
 
   const animateDescription = (text) => {
     if (text) {
-      const words = text.split(" ");
+      const words = text.split("##");
       let index = 0;
 
       const intervalId = setInterval(() => {
@@ -57,11 +57,11 @@ const Card = (props) => {
           </p>
         </div>
       </div>
-      <div className={`cardDescription ${props.alignRight ? "left" : "right"}`}>
+      <h5 className={`cardDescription ${props.alignRight ? "left" : "right"}`}>
         {isHovered && (
           <div className={`animated-description`}>{animatedDescription}</div>
         )}
-      </div>
+      </h5>
     </div>
   );
 };
