@@ -57,8 +57,6 @@ const Home = ({ handleMouseEnter, handleMouseLeave }) => {
             description={card.description}
           />
         ))}
-
-        <br />
       </div>
 
       <div className="footer">
